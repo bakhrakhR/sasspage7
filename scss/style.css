@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  color: #f9f9f9;
+}
+
+body {
+  background-image: url(../img/bg.jpeg);
+  min-height: 250px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-conteiner {
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  top: 50px;
+  width: 70%;
+  max-width: 300px;
+  max-height: 700px;
+  height: 70vh;
+  background-color: rgba(26, 26, 26, 0.831372549);
+  padding: 30px 32px;
+}
+@media screen and (min-width: 500px) {
+  .form-conteiner {
+    right: 50px;
+    transform: none;
+    max-width: 380px;
+    padding: 60px 50px;
+  }
+}
+@media screen and (min-width: 754px) {
+  .form-conteiner {
+    right: 15%;
+    top: 15%;
+  }
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.description {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form label {
+  text-align: right;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+}
+form input {
+  height: 35px;
+  background: #F6F6F6;
+  border: 2px solid #cc33b2;
+  margin-bottom: 33px;
+  font-size: 1rem;
+}
+form button {
+  width: 140px;
+  height: 35px;
+  background: #961656;
+  border: none;
+  color: #F6F6F6;
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 0.33px;
+  color: #F6F6F6;
+  transition: background-color 0.3s, color 0.5s, scale 0.3s, border 0.3s;
+}
+form button:hover {
+  color: #961656;
+  scale: 1.1;
+  border: #961656 solid 2px;
+  background-color: #F6F6F6;
+}/*# sourceMappingURL=style.css.map */
